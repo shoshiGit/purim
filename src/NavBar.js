@@ -1,3 +1,4 @@
+
 import "./Navbar.css";
 import { useSelector } from 'react-redux';
 import React, { useEffect, useState } from "react";
@@ -57,10 +58,13 @@ const NavBar = () => {
               <Link to="/list">Products</Link>
             </li>
             <li>
+              <Link to="/SmallBasket">SmallBasket</Link>
+            </li>
+            <li>
               <Link to="/">Premium</Link>
             </li>
             <li>
-              <Link to="/basket">Basket</Link>
+              <Link to="/Basket">Basket</Link>
             </li>
 
             <Link to="/register">
